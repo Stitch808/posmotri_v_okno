@@ -249,8 +249,12 @@ ol {
   block-size: 27px;
 }
 
+.search-form__textfield:focus {
+  outline: none;
+}
+
 .search-form__textfield[placeholder] {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-style: normal;
@@ -296,6 +300,10 @@ ol {
   font-weight: 700;
   line-height: normal;
   border: 1px solid #fff;
+}
+
+.button:focus {
+  outline: none; 
 }
 
 .search-form__submit-button {
