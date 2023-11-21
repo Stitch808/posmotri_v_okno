@@ -263,7 +263,9 @@ ol {
 }
 
 .search-form__textfield[placeholder]:active {
-  border: 1px solid #fff;
+  border: 1px solid transparent;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .search-form__pseudo-checkbox {
